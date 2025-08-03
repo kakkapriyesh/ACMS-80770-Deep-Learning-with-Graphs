@@ -1,0 +1,45 @@
+[
+    {
+        "key": "ctrl+shift+f",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Python: Format with Black"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Python: Lint with Flake8"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Python: Type Check with MyPy"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Python: Run Tests"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Python: Install Requirements"
+    },
+    {
+        "key": "ctrl+shift+j",
+        "command": "jupyter.runallcells"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "jupyter.runcurrentcell"
+    },
+    {
+        "key": "f5",
+        "command": "workbench.action.debug.start",
+        "when": "!inDebugMode"
+    },
+    {
+        "key": "ctrl+f5",
+        "command": "workbench.action.debug.run",
+        "when": "!inDebugMode"
+    }
+]
