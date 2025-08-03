@@ -1,0 +1,86 @@
+{
+    "Python Class": {
+        "prefix": "class",
+        "body": [
+            "class ${1:ClassName}:",
+            "    \"\"\"${2:Class description.}\"\"\"",
+            "",
+            "    def __init__(self${3:, arg}):",
+            "        \"\"\"${4:Initialize the class.}\"\"\"",
+            "        ${5:pass}",
+            "",
+            "    def ${6:method_name}(self${7:, arg}):",
+            "        \"\"\"${8:Method description.}\"\"\"",
+            "        ${9:pass}"
+        ],
+        "description": "Python class with docstrings"
+    },
+    "Python Function": {
+        "prefix": "def",
+        "body": [
+            "def ${1:function_name}(${2:arg}) -> ${3:None}:",
+            "    \"\"\"${4:Function description.}",
+            "",
+            "    Args:",
+            "        ${2:arg}: ${5:Argument description.}",
+            "",
+            "    Returns:",
+            "        ${6:Return description.}",
+            "    \"\"\"",
+            "    ${7:pass}"
+        ],
+        "description": "Python function with type hints and docstring"
+    },
+    "Python Main": {
+        "prefix": "main",
+        "body": [
+            "def main() -> None:",
+            "    \"\"\"Main function.\"\"\"",
+            "    ${1:pass}",
+            "",
+            "",
+            "if __name__ == \"__main__\":",
+            "    main()"
+        ],
+        "description": "Python main function"
+    },
+    "Python Test Function": {
+        "prefix": "test",
+        "body": [
+            "def test_${1:function_name}():",
+            "    \"\"\"Test ${2:description}.\"\"\"",
+            "    # Arrange",
+            "    ${3:pass}",
+            "",
+            "    # Act",
+            "    ${4:pass}",
+            "",
+            "    # Assert",
+            "    ${5:assert True}"
+        ],
+        "description": "Python test function with AAA pattern"
+    },
+    "Python Try-Except": {
+        "prefix": "try",
+        "body": [
+            "try:",
+            "    ${1:pass}",
+            "except ${2:Exception} as e:",
+            "    ${3:print(f\"Error: {e}\")}"
+        ],
+        "description": "Python try-except block"
+    },
+    "Python Dataclass": {
+        "prefix": "dataclass",
+        "body": [
+            "from dataclasses import dataclass",
+            "",
+            "",
+            "@dataclass",
+            "class ${1:ClassName}:",
+            "    \"\"\"${2:Class description.}\"\"\"",
+            "    ${3:field}: ${4:str}"
+        ],
+        "description": "Python dataclass"
+    }
+}

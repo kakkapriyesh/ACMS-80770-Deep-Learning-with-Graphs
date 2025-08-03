@@ -1,0 +1,39 @@
+# Core dependencies from existing projects
+pyparsing>=1.1
+SciPy>=1.4.1
+torch>=1.5.0
+NumPy>=1.18.1
+seaborn>=0.9.0
+scikit-learn>=0.22.1
+Matplotlib>=3.1.1
+chainer-chemistry
+Cantera>=2.6.0
+networkx>=2.8.4
+
+# Additional scientific computing packages
+pandas>=1.3.0
+jupyter>=1.0.0
+ipython>=8.0.0
+plotly>=5.0.0
+bokeh>=2.4.0
+
+# Graph and network analysis
+graph-tool
+pygraphviz
+python-igraph
+
+# Machine learning extensions
+pytorch-geometric
+dgl-cu111  # Deep Graph Library with CUDA support
+spektral  # Graph neural networks for TensorFlow/Keras
+
+# Data processing
+h5py>=3.0.0
+tables>=3.6.0
+zarr>=2.10.0
+
+# Utilities
+tqdm>=4.60.0
+click>=8.0.0
+pyyaml>=6.0
+python-dotenv>=0.19.0
